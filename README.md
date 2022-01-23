@@ -15,3 +15,5 @@
 * To enable *ehcache* the version of hibernate and ehcahce should be the same. It's taken care in this repo. 
 
 * Just clone, Build and have Fun! 
+
+For more details refer [Maven Repository](https://mvnrepository.com/artifact/org.hibernate/hibernate-ehcache/5.6.0.Final)
