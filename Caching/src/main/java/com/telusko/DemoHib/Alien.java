@@ -6,6 +6,8 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="alien_table")
+@Cacheable
+@Cache(usage=CacheConcurrencyStrategy.READ_ONLY)
 public class Alien {
 	
 	@Id
